@@ -298,7 +298,7 @@
 
 							<!-- Destination -->
 							{% for dest in dests %}
-								{% if dest.spec_offer_text_center %}
+								{% if forloop.counter < 4 %}
 								<div class="destination item">
 									<div class="destination_image">
 										<!-- <img src="{% static 'images/destination_1.jpg' %}" alt=""> -->
